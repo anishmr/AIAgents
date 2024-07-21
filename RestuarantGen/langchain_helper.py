@@ -6,7 +6,7 @@ from langchain.chains import SequentialChain
 
 import os
 
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyBvvS6ndhoQk_0SP2TYxuf7L1CldR2_X38'
+os.environ['GOOGLE_API_KEY'] = ''
 
 llm = ChatGoogleGenerativeAI(model= 'gemini-pro', temperature=0.6)
 
